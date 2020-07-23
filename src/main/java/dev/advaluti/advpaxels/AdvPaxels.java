@@ -1,6 +1,7 @@
 package dev.advaluti.advpaxels;
 
-import dev.advaluti.advpaxels.items.BasePaxel;
+import dev.advaluti.advpaxels.item.BasePaxel;
+import dev.advaluti.advpaxels.material.PaxelToolMaterial;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
 import net.minecraft.item.Item;
@@ -28,12 +29,12 @@ public class AdvPaxels implements ModInitializer {
     public final ItemGroup ADVPAXELS_GROUP = FabricItemGroupBuilder.build(new Identifier(MOD_ID, "advpaxels"), () -> new ItemStack(this.WOODEN_PAXEL));
 
     // Register Paxels
-    public final BasePaxel WOODEN_PAXEL = new BasePaxel((float) 3.5, (float) -2.8, ToolMaterials.WOOD, new Item.Settings().group(ADVPAXELS_GROUP));
-    public final BasePaxel STONE_PAXEL = new BasePaxel((float) 3.5, (float) -2.8, ToolMaterials.STONE, new Item.Settings().group(ADVPAXELS_GROUP));
-    public final BasePaxel IRON_PAXEL = new BasePaxel((float) 3.5, (float) -2.8, ToolMaterials.IRON, new Item.Settings().group(ADVPAXELS_GROUP));
-    public final BasePaxel GOLD_PAXEL = new BasePaxel((float) 3.5, (float) -2.8, ToolMaterials.GOLD, new Item.Settings().group(ADVPAXELS_GROUP));
-    public final BasePaxel DIAMOND_PAXEL = new BasePaxel((float) 3.5, (float) -2.8, ToolMaterials.DIAMOND, new Item.Settings().group(ADVPAXELS_GROUP));
-    public final BasePaxel NETHERITE_PAXEL = new BasePaxel((float) 3.5, (float) -2.8, ToolMaterials.NETHERITE, new Item.Settings().group(ADVPAXELS_GROUP));
+    public final BasePaxel WOODEN_PAXEL = new BasePaxel((float) 3.5, (float) -2.8, PaxelToolMaterial.WOOD, new Item.Settings().group(ADVPAXELS_GROUP));
+    public final BasePaxel STONE_PAXEL = new BasePaxel((float) 3.5, (float) -2.8, PaxelToolMaterial.STONE, new Item.Settings().group(ADVPAXELS_GROUP));
+    public final BasePaxel IRON_PAXEL = new BasePaxel((float) 3.5, (float) -2.8, PaxelToolMaterial.IRON, new Item.Settings().group(ADVPAXELS_GROUP));
+    public final BasePaxel GOLD_PAXEL = new BasePaxel((float) 3.5, (float) -2.8, PaxelToolMaterial.GOLD, new Item.Settings().group(ADVPAXELS_GROUP));
+    public final BasePaxel DIAMOND_PAXEL = new BasePaxel((float) 3.5, (float) -2.8, PaxelToolMaterial.DIAMOND, new Item.Settings().group(ADVPAXELS_GROUP));
+    public final BasePaxel NETHERITE_PAXEL = new BasePaxel((float) 3.5, (float) -2.8, PaxelToolMaterial.NETHERITE, new Item.Settings().group(ADVPAXELS_GROUP));
 
     // Register Modded Paxels
 
