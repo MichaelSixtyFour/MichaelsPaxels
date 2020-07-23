@@ -13,13 +13,15 @@ public class BasePaxel extends MiningToolItem {
         super(damage, speed, material, new HashSet<>(), settings);
     }
 
-    @Override
+    //@Override
     public boolean isEffectiveOn(BlockState state) {
         return true;
+
     }
 
-    @Override
+    //@Override
     public float getMiningSpeedMultiplier(ItemStack stack, BlockState state) {
+
         return miningSpeed;
     }
 }

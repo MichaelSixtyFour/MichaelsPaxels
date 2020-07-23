@@ -33,7 +33,6 @@ public class AdvPaxels implements ModInitializer {
     public final BasePaxel IRON_PAXEL = new BasePaxel((float) 3.5, (float) -2.8, ToolMaterials.IRON, new Item.Settings().group(ADVPAXELS_GROUP));
     public final BasePaxel GOLD_PAXEL = new BasePaxel((float) 3.5, (float) -2.8, ToolMaterials.GOLD, new Item.Settings().group(ADVPAXELS_GROUP));
     public final BasePaxel DIAMOND_PAXEL = new BasePaxel((float) 3.5, (float) -2.8, ToolMaterials.DIAMOND, new Item.Settings().group(ADVPAXELS_GROUP));
-    public final BasePaxel NETHERITE_PAXEL = new BasePaxel((float) 3.5, (float) -2.8, ToolMaterials.NETHERITE, new Item.Settings().group(ADVPAXELS_GROUP));
 
     // Register Modded Paxels
 
@@ -44,6 +43,5 @@ public class AdvPaxels implements ModInitializer {
         Registry.register(Registry.ITEM, new Identifier(MOD_ID, "iron_paxel"), IRON_PAXEL);
         Registry.register(Registry.ITEM, new Identifier(MOD_ID, "gold_paxel"), GOLD_PAXEL);
         Registry.register(Registry.ITEM, new Identifier(MOD_ID, "diamond_paxel"), DIAMOND_PAXEL);
-        Registry.register(Registry.ITEM, new Identifier(MOD_ID, "netherite_paxel"), NETHERITE_PAXEL);
     }
 }
