@@ -1,4 +1,4 @@
-package dev.advaluti.advtools.material;
+package dev.advaluti.advpaxels.material;
 
 import net.minecraft.block.Blocks;
 import net.minecraft.item.Items;
@@ -9,7 +9,7 @@ import net.minecraft.util.Lazy;
 
 import java.util.function.Supplier;
 
-import static dev.advaluti.advtools.item.BasePaxel.durabilityModifier;
+import static dev.advaluti.advpaxels.item.BasePaxel.durabilityModifier;
 
 public enum BaseToolMaterial implements ToolMaterial {
     WOOD(0, 59 * durabilityModifier, 2.0F, 0.0F, 15, () -> Ingredient.fromTag(ItemTags.PLANKS)),

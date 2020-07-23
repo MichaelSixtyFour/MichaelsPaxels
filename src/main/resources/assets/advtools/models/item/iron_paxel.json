@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/handheld",
   "textures": {
-    "layer0": "advtools:item/iron_paxel"
+    "layer0": "advpaxels:item/iron_paxel"
   }
 }

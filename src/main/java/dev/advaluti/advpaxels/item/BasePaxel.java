@@ -1,4 +1,4 @@
-package dev.advaluti.advtools.item;
+package dev.advaluti.advpaxels.item;
 
 import net.minecraft.block.BlockState;
 import net.minecraft.item.ItemStack;

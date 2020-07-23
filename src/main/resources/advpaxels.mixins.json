@@ -1,6 +1,6 @@
 {
   "required": true,
-  "package": "dev.advaluti.advtools.mixin",
+  "package": "dev.advaluti.advpaxels.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [],
   "client": [],
