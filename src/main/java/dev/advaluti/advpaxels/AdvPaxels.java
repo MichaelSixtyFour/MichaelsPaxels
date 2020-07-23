@@ -34,7 +34,7 @@ public class AdvPaxels implements ModInitializer {
     public final BasePaxel IRON_PAXEL = new BasePaxel((float) 3.5, (float) -2.8, PaxelToolMaterial.IRON, new Item.Settings().group(ADVPAXELS_GROUP));
     public final BasePaxel GOLD_PAXEL = new BasePaxel((float) 3.5, (float) -2.8, PaxelToolMaterial.GOLD, new Item.Settings().group(ADVPAXELS_GROUP));
     public final BasePaxel DIAMOND_PAXEL = new BasePaxel((float) 3.5, (float) -2.8, PaxelToolMaterial.DIAMOND, new Item.Settings().group(ADVPAXELS_GROUP));
-    public final BasePaxel NETHERITE_PAXEL = new BasePaxel((float) 3.5, (float) -2.8, PaxelToolMaterial.NETHERITE, new Item.Settings().group(ADVPAXELS_GROUP));
+    public final BasePaxel NETHERITE_PAXEL = new BasePaxel((float) 3.5, (float) -2.8, PaxelToolMaterial.NETHERITE, new Item.Settings().group(ADVPAXELS_GROUP).fireproof());
 
     // Register Modded Paxels
 
