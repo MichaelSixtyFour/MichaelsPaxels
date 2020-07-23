@@ -1,5 +1,6 @@
 package dev.advaluti.advpaxels;
 
+import dev.advaluti.advpaxels.item.BaseItem;
 import dev.advaluti.advpaxels.item.BasePaxel;
 import dev.advaluti.advpaxels.material.BaseToolMaterial;
 import net.fabricmc.api.ModInitializer;
@@ -17,7 +18,7 @@ public class AdvPaxels implements ModInitializer {
 
     public static Logger LOGGER = LogManager.getLogger();
 
-    public static final String MOD_ID = "advtools";
+    public static final String MOD_ID = "advpaxels";
     public static final String MOD_NAME = "AdvPaxels";
 
     public static void log(Level level, String message){
@@ -26,6 +27,9 @@ public class AdvPaxels implements ModInitializer {
 
     // Item Group
     public final ItemGroup ADVPAXELS_GROUP = FabricItemGroupBuilder.build(new Identifier(MOD_ID, "general"), () -> new ItemStack(this.WOODEN_PAXEL));
+
+    // Register Misc.
+    public final BaseItem STONE_ROD = new BaseItem(new Item.Settings().group(ADVPAXELS_GROUP));
 
     // Register Paxels
     public final BasePaxel WOODEN_PAXEL = new BasePaxel( 3.5F,  -2.8F, BaseToolMaterial.WOOD, new Item.Settings().group(ADVPAXELS_GROUP));
@@ -39,6 +43,8 @@ public class AdvPaxels implements ModInitializer {
 
     @Override
     public void onInitialize() {
+        Registry.register(Registry.ITEM, new Identifier(MOD_ID, "stone_rod"), STONE_ROD);
+
         Registry.register(Registry.ITEM, new Identifier(MOD_ID, "wooden_paxel"), WOODEN_PAXEL);
         Registry.register(Registry.ITEM, new Identifier(MOD_ID, "stone_paxel"), STONE_PAXEL);
         Registry.register(Registry.ITEM, new Identifier(MOD_ID, "iron_paxel"), IRON_PAXEL);

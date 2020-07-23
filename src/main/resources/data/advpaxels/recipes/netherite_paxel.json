@@ -16,7 +16,7 @@
       "item": "minecraft:netherite_pickaxe"
     },
     "/": {
-      "item": "minecraft:stick"
+      "item": "advpaxels:stone_rod"
     }
   },
   "result": {
