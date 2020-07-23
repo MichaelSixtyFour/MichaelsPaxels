@@ -1,26 +1,12 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "asp",
-    " / ",
-    " / "
-  ],
-  "key": {
-    "a": {
-      "item": "minecraft:netherite_axe"
-    },
-    "s": {
-      "item": "minecraft:netherite_shovel"
-    },
-    "p": {
-      "item": "minecraft:netherite_pickaxe"
-    },
-    "/": {
-      "item": "advpaxels:stone_rod"
-    }
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "advpaxels:diamond_paxel"
+  },
+  "addition": {
+    "item": "minecraft:netherite_ingot"
   },
   "result": {
-    "item": "advpaxels:netherite_paxel",
-    "count": 1
+    "item": "advpaxels:netherite_paxel"
   }
 }
