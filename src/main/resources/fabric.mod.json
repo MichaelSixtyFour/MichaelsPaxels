@@ -1,26 +1,26 @@
 {
   "schemaVersion": 1,
-  "id": "threadtech",
+  "id": "advpaxels",
   "version": "${version}",
-  "name": "ThreadTech",
-  "description": "A tech mod for fabric 1.16",
+  "name": "AdvPaxels",
+  "description": "A paxel mod for fabric 1.16",
   "authors": [
     "Advaluti"
   ],
   "contributors": [],
   "contact": {},
   "license": "MIT",
-  "icon": "assets/threadtech/icon.png",
+  "icon": "assets/advpaxels/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "dev.advaluti.threadtech.ThreadTech"
+      "dev.advaluti.advpaxels.AdvPaxels"
     ],
     "client": [],
     "server": []
   },
   "mixins": [
-    "threadtech.mixins.json"
+    "advpaxels.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=0.8.9",
