@@ -1,0 +1,19 @@
+{
+  "_comment_": "AdvTools Lang",
+
+  "itemGroup.advtools.advtools": "AdvTools",
+
+  "item.advtools.wooden_paxel": "Wooden Paxel",
+  "item.advtools.stone_paxel": "Stone Paxel",
+  "item.advtools.iron_paxel": "Iron Paxel",
+  "item.advtools.gold_paxel": "Gold Paxel",
+  "item.advtools.diamond_paxel": "Diamond Paxel",
+  "item.advtools.netherite_paxel": "Netherite Paxel",
+
+  "item.advtools.wooden_hammer": "Wooden Hammer",
+  "item.advtools.stone_hammer": "Stone Hammer",
+  "item.advtools.iron_hammer": "Iron Hammer",
+  "item.advtools.gold_hammer": "Gold Hammer",
+  "item.advtools.diamond_hammer": "Diamond Hammer",
+  "item.advtools.netherite_hammer": "Netherite Hammer"
+}

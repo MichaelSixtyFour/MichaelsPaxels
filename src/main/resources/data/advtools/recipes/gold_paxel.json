@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "asp",
+    " / ",
+    " / "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:gold_axe"
+    },
+    "s": {
+      "item": "minecraft:gold_shovel"
+    },
+    "p": {
+      "item": "minecraft:gold_pickaxe"
+    },
+    "/": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "advtools:gold_paxel",
+    "count": 1
+  }
+}

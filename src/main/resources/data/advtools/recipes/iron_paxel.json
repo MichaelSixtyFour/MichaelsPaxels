@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "asp",
+    " / ",
+    " / "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:iron_axe"
+    },
+    "s": {
+      "item": "minecraft:iron_shovel"
+    },
+    "p": {
+      "item": "minecraft:iron_pickaxe"
+    },
+    "/": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "advtools:iron_paxel",
+    "count": 1
+  }
+}
