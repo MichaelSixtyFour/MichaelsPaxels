@@ -28,10 +28,22 @@ public class AdvPaxels implements ModInitializer {
     public final ItemGroup ADVPAXELS_GROUP = FabricItemGroupBuilder.build(new Identifier(MOD_ID, "advpaxels"), () -> new ItemStack(this.WOODEN_PAXEL));
 
     // Register Paxels
-    public final BasePaxel WOODEN_PAXEL = new BasePaxel((float) 3.5, 1, ToolMaterials.WOOD, new Item.Settings().group(ADVPAXELS_GROUP));
+    public final BasePaxel WOODEN_PAXEL = new BasePaxel((float) 3.5, (float) -2.8, ToolMaterials.WOOD, new Item.Settings().group(ADVPAXELS_GROUP));
+    public final BasePaxel STONE_PAXEL = new BasePaxel((float) 3.5, (float) -2.8, ToolMaterials.STONE, new Item.Settings().group(ADVPAXELS_GROUP));
+    public final BasePaxel IRON_PAXEL = new BasePaxel((float) 3.5, (float) -2.8, ToolMaterials.IRON, new Item.Settings().group(ADVPAXELS_GROUP));
+    public final BasePaxel GOLD_PAXEL = new BasePaxel((float) 3.5, (float) -2.8, ToolMaterials.GOLD, new Item.Settings().group(ADVPAXELS_GROUP));
+    public final BasePaxel DIAMOND_PAXEL = new BasePaxel((float) 3.5, (float) -2.8, ToolMaterials.DIAMOND, new Item.Settings().group(ADVPAXELS_GROUP));
+    public final BasePaxel NETHERITE_PAXEL = new BasePaxel((float) 3.5, (float) -2.8, ToolMaterials.NETHERITE, new Item.Settings().group(ADVPAXELS_GROUP));
+
+    // Register Modded Paxels
 
     @Override
     public void onInitialize() {
         Registry.register(Registry.ITEM, new Identifier(MOD_ID, "wooden_paxel"), WOODEN_PAXEL);
+        Registry.register(Registry.ITEM, new Identifier(MOD_ID, "stone_paxel"), STONE_PAXEL);
+        Registry.register(Registry.ITEM, new Identifier(MOD_ID, "iron_paxel"), IRON_PAXEL);
+        Registry.register(Registry.ITEM, new Identifier(MOD_ID, "gold_paxel"), GOLD_PAXEL);
+        Registry.register(Registry.ITEM, new Identifier(MOD_ID, "diamond_paxel"), DIAMOND_PAXEL);
+        Registry.register(Registry.ITEM, new Identifier(MOD_ID, "netherite_paxel"), NETHERITE_PAXEL);
     }
 }
