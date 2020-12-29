@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/handheld",
   "textures": {
-    "layer0": "advpaxels:item/stone_rod"
+    "layer0": "michaelspaxels:item/netherite_paxel"
   }
 }

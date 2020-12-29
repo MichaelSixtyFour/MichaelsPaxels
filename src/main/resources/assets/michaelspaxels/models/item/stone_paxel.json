@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/handheld",
   "textures": {
-    "layer0": "advpaxels:item/wooden_paxel"
+    "layer0": "michaelspaxels:item/stone_paxel"
   }
 }

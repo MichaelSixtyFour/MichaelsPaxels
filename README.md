@@ -1,2 +1,2 @@
-# AdvPaxels
+# MichaelsPaxels
 A paxel mod for fabric 1.16.3

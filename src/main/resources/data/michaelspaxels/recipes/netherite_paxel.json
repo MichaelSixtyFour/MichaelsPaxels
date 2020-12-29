@@ -1,12 +1,12 @@
 {
   "type": "minecraft:smithing",
   "base": {
-    "item": "advpaxels:diamond_paxel"
+    "item": "michaelspaxels:diamond_paxel"
   },
   "addition": {
     "item": "minecraft:netherite_ingot"
   },
   "result": {
-    "item": "advpaxels:netherite_paxel"
+    "item": "michaelspaxels:netherite_paxel"
   }
 }

@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "id": "advpaxels",
+  "id": "michaelspaxels",
   "version": "${version}",
-  "name": "AdvPaxels",
+  "name": "michaelspaxels",
   "description": "A paxel mod for fabric 1.16.3",
   "authors": [
     "Advaluti"
@@ -10,17 +10,17 @@
   "contributors": [],
   "contact": {},
   "license": "MIT",
-  "icon": "assets/advpaxels/icon.png",
+  "icon": "assets/michaelspaxels/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "dev.advaluti.advpaxels.AdvPaxels"
+      "dev.michaelsixtyfour.michaelspaxels.MichaelsPaxels"
     ],
     "client": [],
     "server": []
   },
   "mixins": [
-    "advpaxels.mixins.json"
+    "michaelspaxels.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=0.8.9",

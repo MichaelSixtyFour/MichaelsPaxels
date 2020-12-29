@@ -7,20 +7,20 @@
   ],
   "key": {
     "a": {
-      "item": "minecraft:wooden_axe"
+      "item": "minecraft:stone_axe"
     },
     "s": {
-      "item": "minecraft:wooden_shovel"
+      "item": "minecraft:stone_shovel"
     },
     "p": {
-      "item": "minecraft:wooden_pickaxe"
+      "item": "minecraft:stone_pickaxe"
     },
     "/": {
       "item": "minecraft:stick"
     }
   },
   "result": {
-    "item": "advpaxels:wooden_paxel",
+    "item": "michaelspaxels:stone_paxel",
     "count": 1
   }
 }

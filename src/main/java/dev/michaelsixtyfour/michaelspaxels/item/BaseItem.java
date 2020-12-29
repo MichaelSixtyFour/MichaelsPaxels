@@ -1,4 +1,4 @@
-package dev.advaluti.advpaxels.item;
+package dev.michaelsixtyfour.michaelspaxels.item;
 
 import net.minecraft.item.Item;
 

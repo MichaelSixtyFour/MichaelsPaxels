@@ -7,20 +7,20 @@
   ],
   "key": {
     "a": {
-      "item": "minecraft:iron_axe"
+      "item": "minecraft:diamond_axe"
     },
     "s": {
-      "item": "minecraft:iron_shovel"
+      "item": "minecraft:diamond_shovel"
     },
     "p": {
-      "item": "minecraft:iron_pickaxe"
+      "item": "minecraft:diamond_pickaxe"
     },
     "/": {
       "item": "minecraft:stick"
     }
   },
   "result": {
-    "item": "advpaxels:iron_paxel",
+    "item": "michaelspaxels:diamond_paxel",
     "count": 1
   }
 }

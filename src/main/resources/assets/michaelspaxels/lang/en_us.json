@@ -1,0 +1,14 @@
+{
+  "_comment_": "MichaelsPaxels Lang",
+
+  "itemGroup.michaelspaxels.general": "MichaelsPaxels",
+
+  "item.michaelspaxels.stone_rod": "Stone Rod",
+
+  "item.michaelspaxels.wooden_paxel": "Wooden Paxel",
+  "item.michaelspaxels.stone_paxel": "Stone Paxel",
+  "item.michaelspaxels.iron_paxel": "Iron Paxel",
+  "item.michaelspaxels.gold_paxel": "Gold Paxel",
+  "item.michaelspaxels.diamond_paxel": "Diamond Paxel",
+  "item.michaelspaxels.netherite_paxel": "Netherite Paxel"
+}
