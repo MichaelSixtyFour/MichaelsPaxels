@@ -1,5 +1,5 @@
 plugins {
-	id 'fabric-loom' version '0.4.20'
+	id 'fabric-loom' version '0.5-SNAPSHOT'
 	id 'maven-publish'
 }
 
@@ -14,12 +14,12 @@ minecraft {
 }
 
 dependencies {
-	//to change the versions see the gradle.properties file
-	minecraft "com.mojang:minecraft:${project.minecraft_version}"
-	mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
-	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
+	minecraft "com.mojang:minecraft:1.16.3"
+	mappings "net.fabricmc:yarn:1.16.3+build.47:v2"
+	modImplementation "net.fabricmc:fabric-loader:0.10.3+build.211"
 
-	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_api_version}"
+	//Fabric api
+	modImplementation "net.fabricmc.fabric-api:fabric-api:0.24.1+build.412-1.16"
 }
 
 processResources {
@@ -46,7 +46,7 @@ tasks.withType(JavaCompile) {
 // if it is present.
 // If you remove this task, sources will not be generated.
 task sourcesJar(type: Jar, dependsOn: classes) {
-	classifier = "sources"
+	archiveClassifier.set("sources")
 	from sourceSets.main.allSource
 }
 
